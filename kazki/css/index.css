@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luminari', 'fantasy';
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../images/mihail-tregubov-vs7dI91boPs-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.navbar__nav, .enter {
+    padding: 15px;
+}
+.navbar__link {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.navbar__link:hover {
+    padding: 10px 0;
+    border-bottom: 1px solid #ffc107;
+}
+.enter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.enter__link {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 0 10px;
+    transition: border-color 0.3s, color 0.4s;
+    letter-spacing: 1px;
+}
+.enter__link:hover {
+    color: #ffc107;
+    border-color: transparent;
+
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    /*color: #fff;*/
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0;
+    animation: backcolor 5s forwards;
+    letter-spacing: 1px;
+}
+@keyframes backcolor {
+    0% {
+        background-position: -750px 0;
+        opacity: 100%;
+    }
+    100% {
+        background-position: 0;
+        opacity: 60%;
+    }
+}
+.main__title {
+    margin-top: 50px;
+}
