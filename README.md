@@ -26,7 +26,7 @@
 •	Страница с автором
 
 ## 3. USE CASE DIAGRAM
- 
+ https://github.com/KFING/Belarusian-folk-tales/issues/2#issuecomment-1572078672
 ## 4. ПРИМЕР ДИАГРАММЫ ИЗ ПОЛЬЗОВАТЕЛЬСКИХ ИСТОРИЙ
  
 ## 5. ДИАГРАММЫ КЛАССОВ
